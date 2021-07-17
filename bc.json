@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://yellow-peacock-a5esasga.ws-us11.gitpod.io",
+    "address": "https://violet-hamster-kn1z3mpc.ws-us11.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -146,7 +146,7 @@
         {
             "slug": "03.1-your-first-component",
             "title": "03.1-your-first-component",
-            "done": false,
+            "done": true,
             "path": "exercises/03.1-your-first-component",
             "translations": [
                 "es",
@@ -157,7 +157,7 @@
         {
             "slug": "03.2-a-real-component",
             "title": "03.2-a-real-component",
-            "done": false,
+            "done": true,
             "path": "exercises/03.2-a-real-component",
             "translations": [
                 "es",
