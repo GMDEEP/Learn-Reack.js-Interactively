@@ -16,7 +16,7 @@ test("The returned JSX statement should be exactly this: <span>{ name } is { age
 <span>
   John
    is
-  12
+   12
    years old
 </span>
 `);
