@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import PropType from "prop-types";
+import PropTypes from "prop-types";
 
 const BootstrapCard = props => {
 	// 1) replace the hard-coded image, description, link, etc. With their property variable.
@@ -23,8 +23,11 @@ const BootstrapCard = props => {
 	);
 };
 BootstrapCard.propTypes = {
-	title: PropType.string
-	// 2) add here the new properties into the proptypes object
+	title: PropTypes.string,
+	imageUrl: PropTypes.string,
+	description: PropTypes.string,
+	buttonUrl: PropTypes.string,
+	buttonLabel: PropTypes.string
 };
 
 // 3) Use ReactDOM to add the component into then DOM element #myDiv

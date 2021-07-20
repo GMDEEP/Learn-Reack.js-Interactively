@@ -14,10 +14,7 @@ test("The returned JSX statement should be exactly this: <span>{ name } is { age
   console.log(tree);
   expect(tree).toMatchInlineSnapshot(`
 <span>
-  John
-   is
-   12
-   years old
+John is 12 years old
 </span>
 `);
 });
